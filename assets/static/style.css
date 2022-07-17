@@ -126,6 +126,15 @@ nav ul li {
 
 /* Work Experience Design */
 .work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.work-div {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
@@ -180,7 +189,6 @@ nav ul li {
 
 .project-card {
     border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
 }
