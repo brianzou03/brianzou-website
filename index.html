@@ -39,11 +39,11 @@
     </button>
 </nav>
 <!-- Contact section -->
-<p style="text-align: center">
+<div class="contact-bar">
     <a href="mailto:brianzou03@gmail.com">Email</a> &nbsp/&nbsp
     <a href="data/BrianZou-CV.pdf">Resume</a> &nbsp/&nbsp
     <a href="https://github.com/brianzou03">Github</a>
-</p>
+</div>
 <!-- About me -->
 <section class="about" id="about">
     <div class="bio">
@@ -53,9 +53,59 @@
         </p>
     </div>
 </section>
-
 <!-- Projects section -->
-
+<section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/placeholder.png"
+                    alt="selenium-webscraper"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">Selenium Webscraper</h3>
+            <p class="project-details">
+                Selenium web scraper written to gather data from Pacsun.com.
+                The user is able to view the product information via a query
+                to the API, hosted on PostGreSQL.
+            </p>
+            <a href="https://github.com/brianzou03/selenium-web-scraper" target="_blank" class="project-link">Check it
+                Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/placeholder.png"
+                    alt="plotly-dashboard"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">Plotly Dashboard</h3>
+            <p class="project-details">
+                Dashboard displaying analytic graphs and charts for users.
+                Built with Flask/Dash, retrieves data from MySQL
+            </p>
+            <a href="https://github.com/brianzou03/plotly-dashboard" target="_blank" class="project-link">Check it
+                Out</a>
+        </div>
+        <div class="project-container project-card">
+            <img
+                    src="assets/images/placeholder.png"
+                    alt="sentence-composer"
+                    loading="lazy"
+                    class="project-pic"
+            />
+            <h3 class="project-title">Sentence Composer</h3>
+            <p class="project-details">
+                Sentence composer that constructs valid sentences using Python NLTK.
+                Noun Verb, Noun Verb Adjective, and Noun Verb Adverb sentence structures
+                are supported, with grammar parsed by GingerIt.
+            </p>
+            <a href="https://github.com/brianzou03/sentence-composer" target="_blank" class="project-link">Check it
+                Out</a>
+        </div>
+    </div>
+</section>
 <!-- Skills section -->
 
 <!-- Footer section -->
