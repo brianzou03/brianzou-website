@@ -116,7 +116,7 @@ nav ul li {
 
 .contact-bar {
     text-align: center;
-    top-margin: 20px;
+    top-margin: 100px;
     bottom-margin: 20px;
 }
 
@@ -137,10 +137,10 @@ nav ul li {
   margin-bottom: 1rem;
 }
 
-.project-container {
-  text-align: center;
-  width: 21.875rem;
-  padding: 1rem;
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-container p {
