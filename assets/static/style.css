@@ -7,10 +7,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --primary-color: #314045;
+  --secondary-color: #9cc8d6;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -56,7 +54,6 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
@@ -119,6 +116,7 @@ nav ul li {
 .contact-bar {
     text-align: center;
     top-margin: 150px;
+    padding 1.0rem:
     bottom-margin: 20px;
 }
 
@@ -139,6 +137,7 @@ nav ul li {
 
 .work-title {
     text-align: center;
+    padding: 0.25rem;
     margin-bottom: 1rem;
 }
 
