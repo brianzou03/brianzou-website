@@ -49,10 +49,8 @@ body {
 /* Navbar design */
 
 nav {
-  position: sticky;
   top: 0;
   left: 0;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -120,7 +118,7 @@ nav ul li {
 
 .contact-bar {
     text-align: center;
-    top-margin: 200px;
+    top-margin: 150px;
     bottom-margin: 20px;
 }
 
@@ -135,6 +133,7 @@ nav ul li {
 
 .work-div {
     width: 25rem;
+    padding: 0.625rem;
     border-radius: 6px;
 }
 
@@ -145,6 +144,7 @@ nav ul li {
 
 .work-text {
     text-align: center;
+    padding: 32px;
 }
 
 /* Projects Design */
