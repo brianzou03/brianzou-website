@@ -125,8 +125,8 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
-  max-width: 68.75rem;
+  gap: 1.0rem;
+  max-width: 150rem;
 }
 
 .work-div {
@@ -137,7 +137,6 @@ nav ul li {
 
 .work-title {
     text-align: center;
-    padding: 0.25rem;
     margin-bottom: 1rem;
 }
 
@@ -187,4 +186,9 @@ nav ul li {
     border-radius: 11px;
     padding: 20px;
     margin: 10px;
+}
+
+.github-logo{
+    width: 5%;
+    height: 5%;
 }
