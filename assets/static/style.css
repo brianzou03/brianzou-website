@@ -120,7 +120,7 @@ nav ul li {
 
 .contact-bar {
     text-align: center;
-    top-margin: 150px;
+    top-margin: 200px;
     bottom-margin: 20px;
 }
 
@@ -131,12 +131,10 @@ nav ul li {
   justify-content: center;
   gap: 2.5rem;
   max-width: 68.75rem;
-  margin: auto;
 }
 
 .work-div {
     width: 25rem;
-    padding: 0.625rem;
     border-radius: 6px;
 }
 
@@ -147,7 +145,6 @@ nav ul li {
 
 .work-text {
     text-align: center;
-    padding: 32px;
 }
 
 /* Projects Design */
