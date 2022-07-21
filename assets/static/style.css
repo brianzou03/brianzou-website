@@ -121,6 +121,7 @@ nav ul li {
 }
 
 /* Work Experience Design */
+
 .work {
     text-align: center;
     gap: 1.0rem;
@@ -140,11 +141,9 @@ nav ul li {
 }
 
 .work-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     padding: 32px;
+    margin-bottom: 1rem;
 }
 
 /* Projects Design */
@@ -206,9 +205,7 @@ footer {
   margin: 2rem 0 0;
 }
 
+/* Construction Styling */
 .construction {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
