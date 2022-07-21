@@ -123,8 +123,8 @@ nav ul li {
 /* Work Experience Design */
 .work {
     text-align: center;
-  gap: 1.0rem;
-  max-width: 150rem;
+    gap: 1.0rem;
+    max-width: 150rem;
 }
 
 .work-div {
@@ -140,6 +140,9 @@ nav ul li {
 }
 
 .work-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding: 32px;
 }
@@ -201,4 +204,11 @@ footer {
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
+}
+
+.construction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
