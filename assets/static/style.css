@@ -122,9 +122,7 @@ nav ul li {
 
 /* Work Experience Design */
 .work {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    text-align: center;
   gap: 1.0rem;
   max-width: 150rem;
 }
@@ -133,6 +131,7 @@ nav ul li {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
+    margin-bottom: 1rem;
 }
 
 .work-title {
