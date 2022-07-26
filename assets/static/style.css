@@ -130,7 +130,6 @@ nav ul li {
 
 .work-div {
     width: 25rem;
-    padding: 0.625rem;
     border-radius: 6px;
     margin-bottom: 1rem;
 }
@@ -141,12 +140,8 @@ nav ul li {
 }
 
 .work-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 32px;
-    margin-bottom: 1rem;
+    max-width: 300rem;
+    margin: auto;
 }
 
 /* Projects Design */
