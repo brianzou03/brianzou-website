@@ -123,7 +123,9 @@ nav ul li {
 /* Work Experience Design */
 
 .work {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1.0rem;
     max-width: 300rem;
 }
@@ -135,7 +137,6 @@ nav ul li {
 }
 
 .work-title {
-    text-align: center;
     margin-bottom: 1rem;
 }
 
@@ -206,4 +207,26 @@ footer {
 /* Construction Styling */
 .construction {
     text-align: center;
+}
+
+/* */
+
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.skill-div {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+}
+
+.skills h1 {
+  margin-bottom: var(--bottom-margin);
 }
