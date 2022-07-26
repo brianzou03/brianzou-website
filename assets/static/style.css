@@ -125,7 +125,7 @@ nav ul li {
 .work {
     text-align: center;
     gap: 1.0rem;
-    max-width: 150rem;
+    max-width: 300rem;
 }
 
 .work-div {
@@ -141,6 +141,9 @@ nav ul li {
 }
 
 .work-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding: 32px;
     margin-bottom: 1rem;
