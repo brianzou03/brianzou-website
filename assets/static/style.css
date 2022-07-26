@@ -124,6 +124,7 @@ nav ul li {
 
 .work {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1.0rem;
@@ -131,16 +132,22 @@ nav ul li {
 }
 
 .work-div {
+    display: flex;
+    align-items:center;
     width: 25rem;
     border-radius: 6px;
     margin-bottom: 1rem;
 }
 
 .work-title {
+    display: flex;
+    align-items:center;
     margin-bottom: 1rem;
 }
 
 .work-text {
+    display: flex;
+    align-items:center;
     max-width: 300rem;
     margin: auto;
 }
@@ -217,7 +224,7 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
+  max-width: 200rem;
   margin: auto;
 }
 
