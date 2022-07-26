@@ -123,35 +123,37 @@ nav ul li {
 /* Work Experience Design */
 
 .work {
-    display:inline-block;
-    vertical-align:middle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
     gap: 1.0rem;
     max-width: 400rem;
 }
 
 .work-div {
-    display:inline-block;
-    vertical-align:middle;
-    align-items:center;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
     width: 25rem;
     border-radius: 6px;
     margin-bottom: 1rem;
 }
 
 .work-title {
-    display:inline-block;
-    vertical-align:middle;
-    align-items:center;
+    display: flex;
+    align-items: center;
     margin-bottom: 1rem;
+    vertical-align: middle;
 }
 
 .work-text {
-    display:inline-block;
+    display: flex;
     vertical-align:middle;
     align-items:center;
     max-width: 400rem;
     margin: auto;
-
 }
 
 /* Projects Design */
