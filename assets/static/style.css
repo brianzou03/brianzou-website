@@ -241,3 +241,20 @@ footer {
 .skills h1 {
   margin-bottom: var(--bottom-margin);
 }
+
+/* Image Sizing */
+
+.broken-dna {
+    width: 20%;
+    height: 20%;
+}
+
+.male-pants {
+    width: 20%;
+    height: 20%;
+}
+
+.scatterplot-image {
+    width: 20%;
+    height: 20%;
+}
