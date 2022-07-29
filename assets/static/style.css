@@ -245,16 +245,16 @@ footer {
 /* Image Sizing */
 
 .broken-dna {
-    width: 0.1%;
-    height: 0.1%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .male-pants {
-    width: 0.1%;
-    height: 0.1%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .scatterplot-image {
-    width: 0.1%;
-    height: 0.1%;
+    max-width: 10%;
+    max-height: 10%;
 }
